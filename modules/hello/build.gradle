@@ -1,0 +1,7 @@
+jar {
+    destinationDirectory = file("../../plugins-build-output-dir")
+}
+
+dependencies {
+    implementation project(":common")
+}
