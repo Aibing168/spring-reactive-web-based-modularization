@@ -1,0 +1,5 @@
+rootProject.name = 'container'
+
+include ":common", ":root", ":modules:hello", ":modules:exp1"
+
+//project(":root").projectDir = new File(rootDir, "root")
